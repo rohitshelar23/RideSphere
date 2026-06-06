@@ -8,54 +8,54 @@ RideSphere is my first Flutter project, created to demonstrate Flutter developme
 
 ## Features
 
-- Luxury vehicle selection
-- Airport transfer booking
-- Booking confirmation
-- Driver assignment
-- User profile
-- Premium dark theme inspired by LimoSphere
+- Luxury vehicle booking experience
+- Ride confirmation workflow
+- Driver assignment screen
+- User profile management
+- Premium LimoSphere-inspired design
+- Smooth Flutter navigation
 
 ## Screenshots
 
 ### Onboarding Screen
 
-![Onboarding](screenshots/Onboarding screen.jpeg)
+![Onboarding](screenshots/onboarding.jpeg)
 
 ### Login Screen
 
-![Login](screenshots/Login screen.jpeg)
+![Login](screenshots/login.jpeg)
 
-### Home 1 Screen
+### Home Screen 1
 
-![Home1](screenshots/Home screen 1.jpeg)
+![Home1](screenshots/home1.jpeg)
 
-### Home 2 Screen
+### Home Screen 2
 
-![Home2](screenshots/Home screen 2.jpeg)
+![Home2](screenshots/home2.jpeg)
 
-### Booking 1 Screen
+### Booking Screen 1
 
-![Booking1](screenshots/booking screen 1.jpeg)
+![Booking1](screenshots/booking1.jpeg)
 
-### Booking 2 Screen
+### Booking Screen 2
 
-![Booking2](screenshots/booking screen 2.jpeg)
+![Booking2](screenshots/booking2.jpeg)
 
 ### Booking Confirmation
 
-![Confirmation](screenshots/booking confirmed screen.jpeg)
+![Confirmation](screenshots/confirmation.jpeg)
 
 ### Driver Assignment
 
-![Driver Assignment](screenshots/Driver Assignment Screen.jpeg)
+![Driver Assignment](screenshots/driver_assignment.jpeg)
 
 ### Profile Screen
 
-![Profile](screenshots/Profile screen.jpeg)
+![Profile](screenshots/profile.jpeg)
 
 ### Tracking Screen
 
-![Tracking](screenshots/tracking screen.jpeg)
+![Tracking](screenshots/tracking.jpeg)
 
 
 ## Tech Stack
