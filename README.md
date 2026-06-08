@@ -62,7 +62,6 @@ RideSphere is my first Flutter project, created to demonstrate Flutter developme
 
 - Flutter
 - Dart
-- Provider
 - Material Design
 
 ## Author
