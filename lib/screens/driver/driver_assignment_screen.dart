@@ -16,7 +16,7 @@ class DriverAssignmentScreen extends StatelessWidget {
         padding: const EdgeInsets.all(24),
         child: Column(
           children: [
-            const SizedBox(height: 20),
+            const SizedBox(height: 10),
 
             const Icon(
               Icons.check_circle,
@@ -65,7 +65,7 @@ class DriverAssignmentScreen extends StatelessWidget {
               ),
             ),
 
-            const SizedBox(height: 40),
+            const SizedBox(height: 30),
 
             Container(
               padding: const EdgeInsets.all(20),
@@ -144,6 +144,9 @@ class DriverAssignmentScreen extends StatelessWidget {
                 );
               },
             ),
+
+            const SizedBox(height: 20),
+
           ],
         ),
       ),

@@ -12,32 +12,34 @@ class TrackingScreen extends StatelessWidget {
       body: Stack(
         children: [
 
-          // MAP AREA
-          Container(
-            decoration: const BoxDecoration(
-              gradient: LinearGradient(
-                begin: Alignment.topCenter,
-                end: Alignment.bottomCenter,
-                colors: [
-                  Color(0xFF1A1A1A),
-                  Color(0xFF0B0B0D),
-                ],
-              ),
-            ),
-          ),
-
-          // FAKE ROAD LINES
-          Positioned.fill(
-  child: Opacity(
-    opacity: 0.18,
-    child: Image.network(
-      "https://media.istockphoto.com/id/925433040/vector/city-navigation-driving-map.jpg?s=2048x2048&w=is&k=20&c=xGmR0s2-pA3gTV8ZYly7r9pBDfkIv75A6SddujO9e14=",
-      fit: BoxFit.cover,
+         // MAP AREA
+Container(
+  decoration: const BoxDecoration(
+    gradient: LinearGradient(
+      begin: Alignment.topCenter,
+      end: Alignment.bottomCenter,
+      colors: [
+        Color(0xFF1A1A1A),
+        Color(0xFF0B0B0D),
+      ],
     ),
   ),
 ),
 
-          // TOP BAR
+Align(
+  alignment: const Alignment(0, -0.55),
+  child: Text(
+    "Demo Version — Live Map Not Included",
+    textAlign: TextAlign.center,
+    style: TextStyle(
+      color: AppColors.textSecondary,
+      fontSize: 16,
+      fontWeight: FontWeight.w500,
+    ),
+  ),
+),
+
+// TOP BAR
           SafeArea(
             child: Padding(
               padding: const EdgeInsets.symmetric(
@@ -348,3 +350,4 @@ class TrackingScreen extends StatelessWidget {
     );
   }
 }
+

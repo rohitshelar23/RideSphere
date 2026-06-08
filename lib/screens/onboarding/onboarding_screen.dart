@@ -118,7 +118,7 @@ class OnboardingScreen extends StatelessWidget {
   ),
 ),
 
-const SizedBox(height: 10),
+const Spacer(),
 
           
 Text(
@@ -141,7 +141,7 @@ Text(
               ),
             ),
 
-            const Spacer(),
+const SizedBox(height: 10),
 
 PrimaryButton(
   text: 'Get Started',
